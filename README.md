@@ -3,6 +3,16 @@
 # How to start
 
 
+# Install dependencies
+
+```
+sudo apt-get install ros-noetic-ecl-exceptions
+sudo apt-get install ros-noetic-ecl-threads
+sudo apt install ros-noetic-kobuki* ros-noetic-ecl-streams
+sudo apt-get install ros-noetic-joy
+
+```
+
 ## 1. start world with a turtlebot2
 ```
 roslaunch turtlebot_gazebo turtlebot_world.launch 
