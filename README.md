@@ -3,7 +3,7 @@
 # How to start
 
 
-# Install dependencies
+## 1. Install dependencies
 
 ```
 sudo apt-get install ros-noetic-ecl-exceptions
@@ -13,7 +13,7 @@ sudo apt-get install ros-noetic-joy
 
 ```
 
-## 1. start world with a turtlebot2
+## 2. start world with a turtlebot2
 ```
 roslaunch turtlebot_gazebo turtlebot_world.launch 
 ```
@@ -22,7 +22,7 @@ or with a lidar
 roslaunch turtlebot_gazebo h.launch 
 ```
 
-## 2. keyboard move
+## 3. keyboard move
 ```
 roslaunch turtlebot_teleop keyboard_teleop.launch
 ```
