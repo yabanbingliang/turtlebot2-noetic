@@ -1,5 +1,3 @@
-# rl-uav
-
 # How to start
 
 
