@@ -18,6 +18,12 @@ unzip gazebo.zip -d ~/.gazebo/
 ```
 
 ## 3. start world with a turtlebot2
+添加一个软链接
+```
+ln -s /usr/bin/python3 /usr/bin/python
+
+```
+在gazebo中启动turtlebot2
 ```
 roslaunch turtlebot_gazebo turtlebot_world.launch 
 ```
